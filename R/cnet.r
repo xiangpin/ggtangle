@@ -91,14 +91,14 @@ cnetplot.list <- function(
     }
 
     if (color_edge == "category") {
-        ed <- get_edge_data(g)
+        ed <- get_edge_data(g, names = TRUE)
         names(ed)[1] <- "category"
         p <- p +
             geom_edge(
                 aes(color = .data$category),
                 data = ed,
                 linewidth = size_edge
-            )
+            ) 
     } else {
         p <- p + geom_edge(color = color_edge, linewidth = size_edge)
     }

@@ -1,3 +1,8 @@
+# ggtangle 0.1.0.001
+
++ bug fixed in coloring edges of `cnetplot()` (2026-01-09, Fri)
+    - <https://github.com/YuLab-SMU/enrichplot/issues/341>
+
 # ggtangle 0.1.0
 
 + `geom_edge_text()` to add text labels for edges (2025-12-24, Wed)
